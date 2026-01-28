@@ -1,5 +1,4 @@
 /*
- * EMPLOYEE MANAGEMENT SYSTEM
  * 
  * This program:
  * - Stores employee records including personal details, salary, employment status,
@@ -12,7 +11,7 @@
  * - Lists employees working on ongoing projects below 50% completion
  * - Recommends employees eligible for promotion based on performance, tenure,
  *   completed projects, and employment status
- * - Identifies at-risk departments where >40% of employees have poor ratings
+ * -Identifies at-risk departments where >40% of employees have poor ratings
  */
 
 #include<stdio.h>
@@ -569,6 +568,7 @@ void risk_assessment(EMPLOYEE staff[],int n)
 		i=x-1;
 	}
 }
+
 
 
 
